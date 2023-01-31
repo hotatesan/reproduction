@@ -135,7 +135,7 @@ li{
     #about .content{
         flex-direction: column;
         justify-content: center;
-        align-items: center;;
+        align-items: center;
     }
 
     #bicycle ul{
