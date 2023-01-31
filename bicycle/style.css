@@ -81,7 +81,7 @@ li{
     margin-bottom: 80px;
 }
 
-#meinvisual img{
+#mainvisual img{
     width: 100%;
     max-width: 1920px;
     height: 600px;
@@ -134,6 +134,10 @@ li{
 
     #about .content{
         flex-direction: column;
+    }
+
+    #about img{
+        margin: 0 auto;
     }
 
     #bicycle ul{
