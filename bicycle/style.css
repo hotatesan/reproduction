@@ -134,10 +134,7 @@ li{
 
     #about .content{
         flex-direction: column;
-    }
-
-    #about img{
-        justify-content: center;
+        align-items: center;
     }
 
     #bicycle ul{
