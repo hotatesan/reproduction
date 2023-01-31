@@ -136,6 +136,10 @@ li{
         flex-direction: column;
     }
 
+    #about img{
+        justify-content: center;
+    }
+
     #bicycle ul{
         flex-direction: column;
     }
