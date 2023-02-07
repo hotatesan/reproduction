@@ -77,14 +77,16 @@ li{
     margin: auto 0 auto 40px;
 }
 
-.title{
+#title{
     font-size: 16px;
+    margin-bottom: 18px;
 }
 
 .catchcopy{
     font-size: 32px;
     font-family: "Hiragino Sans";
     color: #24A8BF;
+    margin-bottom: 33px;
 }
 
 .main-text{
