@@ -24,7 +24,7 @@ li{
 }
 
 .site-title{
-    width: 280px;
+    max-width: 280px;
     align-items: center;
     margin: 50px auto 10px; 
 }
@@ -101,7 +101,7 @@ li{
     }
 
     #concept{
-        margin-top: 100px;
+        margin: 100px auto 0;
     }
 
     .inner{
@@ -119,12 +119,26 @@ li{
 }
 
 @media screen and (max-width: 760px) {
+    /*header*/
+    .site-title{
+        max-width: 160px;
+        margin: 30px auto 2px;
+    }
+    
+    /*mainvisual*/
+    
     .pc{
         display: none !important;
     }
     
     .sp{
         display: block !important;
-        
+        margin: 28px 0;
+    }
+
+    /*section*/
+
+    #concept{
+        margin: 0 20px;
     }
 }
