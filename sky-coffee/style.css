@@ -1,0 +1,113 @@
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 14px;
+    color: #333333;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+/*header*/
+
+#header{
+    align-items: center;
+    margin: auto;
+    
+}
+
+.site-title{
+    width: 280px;
+    align-items: center;
+    margin: 50px auto 10px; 
+}
+
+/*global*/
+
+.mainvisual{
+    width: 100%;
+}
+
+.pc{
+    display: block !important;
+    margin: 40px 0;
+}
+
+.sp{
+    display: none !important;
+}
+
+.global-nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    max-width: 314px;
+    margin: 0 auto;
+}
+
+/*section*/
+.wrapper{
+    max-width: 1110px;
+}
+
+/*concept*/
+
+#concept{
+    margin: 100px auto;
+}
+
+.inner{
+    display: flex;
+    margin: 0 auto 0 0;
+}
+
+#concept img{
+    max-width: 555px;
+    max-height: 547px;
+}
+
+.text{
+    margin: auto 0 auto 40px;
+}
+
+.title{
+    font-size: 16px;
+}
+
+.catchcopy{
+    font-size: 32px;
+    font-family: "Hiragino Sans";
+    color: #24A8BF;
+}
+
+.main-text{
+    font-size: 16px;
+    font-family: "Hiragino Sans";
+}
+
+@media screen and (max-width: 1120px) {
+
+    .wrapper{
+        max-width: 100%;
+    }
+
+    .inner{
+        flex-direction: column;
+    }
+    
+    #concept img{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    .text{
+        margin: auto;
+    }
+}
