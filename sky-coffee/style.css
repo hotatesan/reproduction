@@ -117,3 +117,14 @@ li{
         margin: auto;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .pc{
+        display: none !important;
+    }
+    
+    .sp{
+        display: block !important;
+        
+    }
+}
