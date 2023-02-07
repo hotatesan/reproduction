@@ -100,6 +100,10 @@ li{
         max-width: 100%;
     }
 
+    #concept{
+        margin-top: 100px;
+    }
+
     .inner{
         flex-direction: column;
     }
