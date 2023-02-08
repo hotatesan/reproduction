@@ -84,14 +84,14 @@ li{
 
 .catchcopy{
     font-size: 32px;
-    font-family: "Hiragino Sans";
+    font-family: Hiragino Sans;
     color: #24A8BF;
     margin-bottom: 33px;
 }
 
 .main-text{
     font-size: 16px;
-    font-family: "Hiragino Sans";
+    font-family: Hiragino Sans;
 }
 
 @media screen and (max-width: 1120px) {
@@ -114,7 +114,7 @@ li{
     }
     
     .text{
-        margin: auto;
+        margin: 27px auto 0 20px;
     }
 }
 
@@ -125,7 +125,7 @@ li{
         margin: 30px auto 2px;
     }
     
-    /*mainvisual*/
+    /*global*/
     
     .pc{
         display: none !important;
@@ -136,9 +136,16 @@ li{
         margin: 28px 0;
     }
 
+
+    .global-nav ul{
+        font-size: 16px;
+        font-family: Helvetica;
+        min-width: 238px;
+    }
+
     /*section*/
 
     #concept{
-        margin: 0 20px;
+        margin: 71px 20px 68px;
     }
 }
