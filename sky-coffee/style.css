@@ -1,10 +1,10 @@
 html{
     font-size: 100%;
-    font-family: Arial;
 }
 
 body{
     font-size: 14px;
+    font-family: Arial;
     color: #333333;
 }
 
@@ -51,6 +51,7 @@ li{
     font-size: 18px;
     max-width: 314px;
     margin: 0 auto;
+    letter-spacing: 0.1em;
 }
 
 /*section*/
@@ -76,6 +77,7 @@ li{
 
 .text{
     margin: auto 0 auto 40px;
+    letter-spacing: 0.1em;
 }
 
 .title{
@@ -92,7 +94,6 @@ li{
 .main-text{
     font-size: 16px;
     line-height: 1.8;
-    letter-spacing: 0.1em;
 }
 
 @media screen and (max-width: 1120px) {
