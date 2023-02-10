@@ -1,5 +1,6 @@
 html{
     font-size: 100%;
+    font-family: Arial;
 }
 
 body{
@@ -84,14 +85,14 @@ li{
 
 .catchcopy{
     font-size: 32px;
-    font-family: Hiragino Sans;
     color: #24A8BF;
     margin-bottom: 33px;
 }
 
 .main-text{
     font-size: 16px;
-    font-family: Hiragino Sans;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
 }
 
 @media screen and (max-width: 1120px) {
@@ -140,7 +141,6 @@ li{
 
     .global-nav ul{
         font-size: 16px;
-        font-family: Helvetica;
         min-width: 238px;
     }
 
